@@ -1,23 +1,14 @@
 1. Tuliskan penjelasan singkat mengenai perbedaan antara JSX dan HTML.
 => html: bener-bener murni code(markup) untuk web
     ex. 
-   <!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+
     <h1>hallo</h1>
     <p class="text">nama saya ayash</p>
     <button onclick="alert">press</button>
-</body>
-</html> -->
+
 
    jsx : sintaks yang mirip html tapi jalannya di java script 
-    <!-- export default function Apk () {
-    return (
+
         <>
         <div>
             <h1>hallo</h1>
@@ -29,9 +20,7 @@
             <p>hello</p>
         </div>
         </>
-    )
-} -->
-
+  
 
 2. Menjelaskan Konsep Virtual DOM
     Buatlah ringkasan singkat tentang apa itu Virtual DOM dan bagaimana cara kerjanya di React.
@@ -60,4 +49,3 @@ Berikan minimal 2 kelebihan dan 2 kekurangan dari masing-masing arsitektur.
    => kelebihan
       MPA - di setiap halamannya punya URl nya sendiri jadi lebih baik lah 
           - hanya data untuk halaman itu yang diambil.
-testing
