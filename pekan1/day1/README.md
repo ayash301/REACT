@@ -1,7 +1,7 @@
 1. Tuliskan penjelasan singkat mengenai perbedaan antara JSX dan HTML.
 => html: bener-bener murni code(markup) untuk web
     ex. 
-   <!DOCTYPE html>
+   <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,10 +13,10 @@
     <p class="text">nama saya ayash</p>
     <button onclick="alert">press</button>
 </body>
-</html>
+</html> -->
 
    jsx : sintaks yang mirip html tapi jalannya di java script 
-    export default function Apk () {
+    <!-- export default function Apk () {
     return (
         <>
         <div>
@@ -30,7 +30,7 @@
         </div>
         </>
     )
-}
+} -->
 
 
 2. Menjelaskan Konsep Virtual DOM
