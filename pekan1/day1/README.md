@@ -1,9 +1,9 @@
 1. Tuliskan penjelasan singkat mengenai perbedaan antara JSX dan HTML.
 => html: bener-bener murni code(markup) untuk web
   
-    (<h1>hallo</h1>
+    <h1>hallo</h1>
     <p class="text">nama saya ayash</p>
-    <button onclick="alert">press</button>)
+    <button onclick="alert">press</button>
 
 
    jsx : sintaks yang mirip html tapi jalannya di java script 
