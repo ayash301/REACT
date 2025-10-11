@@ -1,4 +1,3 @@
-// File: MultiEffectDemo.jsx
 import React, { useState, useEffect } from 'react';
 
 function MultiEffectDemo() {
