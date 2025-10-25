@@ -1,0 +1,60 @@
+.mouse-area {
+  height: 250px;
+  border: 2px dashed #3b82f6;
+  background-color: #eef6ff;
+  position: relative;
+  margin-top: 10px;
+  border-radius: 12px;
+  overflow: visible; 
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+
+.mouse-area:hover {
+  border-color: #1d4ed8;
+  background-color: #dceaff;
+}
+
+.mouse-position {
+  position: absolute;
+  font-weight: bold;
+  color: #dc2626;
+  pointer-events: none;
+  user-select: none;
+  font-size: 18px;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: transform 0.05s ease;
+}
+
+.mouse-position:hover {
+  transform: scale(1.1);
+}
+
+.draw-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.reset-btn {
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.reset-btn:hover {
+  background-color: #b91c1c;
+  transform: scale(1.05);
+}
